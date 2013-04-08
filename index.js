@@ -5,7 +5,7 @@ var Q = require("q")
 var Spannify = module.exports = function(opts) {
   this._opts = _.extend({
     className: "highlightableElement",
-    idPrefix: "textHighlight_",
+    idPrefix: "textHighlight",
     start: 0
   }, opts)
 }
